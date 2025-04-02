@@ -31,13 +31,6 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
-# 5. Collections
-collections:
-  posts:
-    title: Blog # Needed for Siteleaf
-    output: true
-    description: "test description for blog" # The post list page content
-
 # 6. Jekyll collections settings
 defaults:
   -
