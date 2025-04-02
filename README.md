@@ -1,6 +1,6 @@
 # Michael's Personal Website
 
-See the website at `michael-n.com'! Theme adapted from [David Darnes](https://github.com/dngdial/garth).
+See the website at `michael-n.com`! Theme adapted from [David Darnes](https://github.com/dngdial/garth).
 
 ## Test Locally
 Run

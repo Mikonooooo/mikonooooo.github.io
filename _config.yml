@@ -57,7 +57,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 title: "Michael Ngo" # Site name or title
 logo: "/assets/face.jpg" # Site logo
-favicon: "/assets/logo.jpg"  # Site favicon
+favicon: "/assets/favicon.ico"  # Site favicon
 description: "My personal website" # Site description and default description
 url: "https://michael-n.com" # Site url
 baseurl: ""
