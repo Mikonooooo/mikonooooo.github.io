@@ -14,15 +14,6 @@ exclude:
 - CNAME
 - Gemfile
 - Gemfile.lock
-- garth-jekyll-theme.gemspec
-
-# 2. Installed Gems
-plugins:
-- jekyll-paginate
-
-# 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: page:num # jekyll-paginate > blog page
 
 # 4. Jekyll settings
 sass:
@@ -30,21 +21,6 @@ sass:
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

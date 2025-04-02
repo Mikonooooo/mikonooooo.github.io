@@ -54,3 +54,14 @@ $title-font-size: 2rem;
 .fade-in-up {
     animation: fadeInUp 0.8s ease-out forwards;
 }
+
+ul li > ul {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Add space ONLY below each nested bullet */
+ul li > ul > li {
+  margin-top: 0 !important;
+  margin-bottom: 0.4em !important; /* adjust this value as needed */
+}
