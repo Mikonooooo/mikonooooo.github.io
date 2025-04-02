@@ -1,0 +1,56 @@
+---
+title: false
+---
+
+@import "garth";
+
+$spacing: 1rem;
+$title-font-size: 2rem;
+
+.header {
+  .container {
+    .branding {
+      display: flex;
+      align-items: center;
+      gap: $spacing;
+
+      .site-title {
+        font-size: $title-font-size;
+        margin: 0;
+        line-height: 1.2;
+      }
+    }
+  }
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.site-title {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.2;
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+  
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+  
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
