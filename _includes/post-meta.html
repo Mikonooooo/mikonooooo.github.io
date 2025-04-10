@@ -10,6 +10,13 @@
   {% endcapture %}
 {% endif %}
 
+{% assign words = page.content | number_of_words %}
+{% if words < 360 %}
+  {% assign reading_time = '1 min read' %}
+{% else %}
+  {% assign reading_time = words | divided_by:180 | append: ' min read' %}
+{% endif %}
+
 <small class="small  post-meta">
-  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>
+  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>{{ "&nbsp;&middot;&nbsp;" | append: reading_time }}
 </small>
