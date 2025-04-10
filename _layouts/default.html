@@ -21,9 +21,33 @@
 
 	</head>
 	<body>
-
 		{{ content }}
 
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
+
+		<script>
+			document.querySelectorAll('a[href]').forEach(link => {
+			  if (
+				link.target === '_blank' ||
+				link.hostname !== window.location.hostname
+			  ) return;
+		  
+			  link.addEventListener('click', function (e) {
+				e.preventDefault();
+				const href = this.href;
+		  
+				const content =
+			document.querySelector('.article');
+				if (content) {
+				  content.classList.add('fade-out');
+				  setTimeout(() => {
+					window.location.href = href;
+				  }, 200); // match animation
+				} else {
+				  window.location.href = href;
+				}
+			  });
+			});
+		  </script>
 	</body>
 </html>
