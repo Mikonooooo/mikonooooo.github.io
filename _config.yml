@@ -31,3 +31,11 @@ description: "My personal website" # Site description and default description
 url: "https://michael-n.com" # Site url
 baseurl: ""
 lang: en-US
+
+navbar:
+  - title: Home
+    url: /
+  - title: Writing
+    url: /writing/
+  - title: Resume
+    url: /resume/
