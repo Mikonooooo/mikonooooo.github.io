@@ -19,12 +19,13 @@ permalink: /resume/
 
 - **Research with [Michael P. Kim](https://www.cs.cornell.edu/~mpkim/)**, May 2024-Current
     - Efficient verification of statistical algorithms.
+    - Bowers Undergradute Research Experience. Su24, Su25.
 
 #### Organizations
 
-- **[Cornell Data Science](https://cornelldata.science/)**, Oct 2022-Current
+- **[Cornell Data Science](https://cornelldata.science/)**, Oct 2022-May 2025
     - _Onboarding Chair_, May 2024-May 2025
-    - Computer vision, system design, contrastive learning, diffusion, project management.
+    - Computer vision, system design, contrastive learning, diffusion, encryption, project management.
 - **[Cornell University Artificial Intelligence](https://cuai.github.io/)**, Nov 2023-Nov 2024
     - Deep learning, domain generalization.
 
