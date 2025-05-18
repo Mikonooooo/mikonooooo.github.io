@@ -5,7 +5,6 @@ See the website at [michael-n.com](https://michael-n.com/)! Theme adapted from [
 ## Test Locally
 Run
 ```bash
-bundle install
 bundle exec jekyll serve
 ```
 and go to `http://127.0.0.1:4000` in your browser.
