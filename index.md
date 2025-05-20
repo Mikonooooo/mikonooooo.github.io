@@ -9,6 +9,6 @@ I'm interested in the limits of theoretical computer science (cryptography, lear
 
 I have been a TA for algorithms and discrete math. I lead new member onboarding for the Cornell Data Science project team. I facilitated mastermind circles for goal-oriented Cornellians.
 
-I post a few math videos on [YouTube](https://www.youtube.com/@mikono2022). I enjoy anime and connecting with people. 
+I post a few math videos on [YouTube](https://www.youtube.com/@mikono04). I enjoy anime and connecting with people. 
 
 Hit me up for a chat anytime!
