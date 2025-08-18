@@ -10,10 +10,10 @@ permalink: /resume/
     - _B.S. in Computer Science; Minor in Mathematics_
     - _Engineering Leadership Certification_
     - Teaching
+        - Peer Mentor for Engineering Leadership Certification. Fa25, Sp26.
         - TA for CS 4820 (Introduction to Analysis of Algorithms). Sp24, Fa24, Sp25.
         - TA for CS 2800 (Mathematical Foundations of Computing). Sp23, Fa23.
         - Splash @ Cornell. Sp24, Sp25.
-
 
 #### Experience
 
