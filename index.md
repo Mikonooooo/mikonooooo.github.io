@@ -5,7 +5,7 @@ title: Home
 
 I'm fourth-year undergraduate studying computer science at Cornell University.
 
-I'm interested in the limits of theoretical computer science (cryptography, learning theory).
+I'm interested in theoretical computer science (cryptography, learning theory, proof systems).
 
 I'm a peer mentor for the Cornell Engineering Leadership Certification Program. I have been a TA for algorithms and discrete math. I led new member onboarding for the Cornell Data Science project team. I facilitated mastermind circles for goal-oriented Cornellians.
 
