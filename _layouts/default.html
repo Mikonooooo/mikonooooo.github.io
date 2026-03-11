@@ -48,6 +48,20 @@
 				}
 			  });
 			});
+			function scrollGallery(index) {
+			const gallery = document.getElementById("gallery");
+			const cardWidth = gallery.querySelector(".card").offsetWidth + 20;
+
+			gallery.scrollTo({
+				left: 3 * index * cardWidth,
+				behavior: "smooth"
+			});
+
+			document.querySelectorAll(".dot").forEach(d => d.classList.remove("active"));
+			document.querySelectorAll(".dot")[index].classList.add("active");
+			}
 		  </script>
+
+		  
 	</body>
 </html>
