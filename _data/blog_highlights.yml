@@ -1,0 +1,21 @@
+- title: Who's the best tennis player?
+  date: September 10, 2025
+  category: YouTube
+  description: A math-and-sports experiment using Elo ratings to think about skill, ranking, and what makes a playful explanatory project fun.
+  image: /assets/images/test-taking/barton.jpg
+  image_alt: Portrait used for the tennis post card
+  url: /youtube/2025/09/10/te/
+- title: On writing essays for fun
+  date: May 20, 2025
+  category: General
+  description: Why writing can deepen understanding, sharpen memory, and make books, movies, and ideas more vivid and personal.
+  image: /assets/images/essay/essay.jpg
+  image_alt: Person writing an essay
+  url: /general/2025/05/20/es/
+- title: A lens on machine learning for the general public
+  date: April 19, 2025
+  category: Computer Science
+  description: A longer explainer on what machine learning is, why it works, and where its limitations and ethical concerns show up in practice.
+  image: /assets/images/2025-04-19-ml/mario.png
+  image_alt: Super Mario image from the machine learning post
+  url: /computer-science/2025/04/19/ml/

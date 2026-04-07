@@ -16,7 +16,7 @@ body {
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
   font-weight: map-get($bodytype, regular);
-  line-height: 2rem;
+  line-height: 1.15rem;
 }
 
 // Links.
@@ -238,8 +238,17 @@ a {
     font-style: map-get($bodytype, italic);
   }
 
-  // Caption and inline small text.
-  small, .caption {
+  // Inline small text.
+  small {
+    @include fontsize(theta, all);
+
+    font-family: unquote(map-get($bodytype, font-family));
+    font-style: normal;
+    font-weight: map-get($bodytype, regular);
+  }
+
+  // Captions.
+  .caption {
     @include fontsize(theta, all);
 
     font-family: unquote(map-get($headingtype, font-family));

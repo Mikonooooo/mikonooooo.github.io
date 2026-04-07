@@ -1,22 +1,25 @@
-<div class="card">
-  <div class="card-header">
-    <div>
-      <b>{{ include.title }}</b><br>
-      {{ include.authors }}
+<a href="{{ include.link }}" class="card-link">
+  <article class="card card--publication">
+    <div class="card-body">
+      <div class="card-header">
+        <div>
+          <b>{{ include.title }}</b><br>
+          <small><i>{{ include.authors }}</i></small>
+        </div>
+        <img src="{{ include.icon }}" class="card-icon" alt="{{ include.icon_alt }}">
+        </div>
+        <!-- <br> -->
+
+        <small class="small card-description">{{ include.description }}</small>
     </div>
-    <a href="{{ include.link }}" class="card-icon-link">
-      <img src="{{ include.icon }}" class="card-icon" alt="{{ include.icon_alt }}">
-    </a>
-  </div>
 
-  <iframe
-    src="{{ include.video }}"
-    title="{{ include.video_title | default: 'YouTube video player' }}"
-    frameborder="0"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
-
-  <p><i>{{ include.description }}</i></p>
-</div>
+    <iframe
+      src="{{ include.video }}"
+      title="{{ include.video_title | default: 'YouTube video player' }}"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </article>
+</a>
