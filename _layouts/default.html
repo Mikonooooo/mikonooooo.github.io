@@ -1,67 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		{% if page.collectionpage %}
-			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<title>{{ collectiondata.title }} - {{ site.title }}</title>
-		{% elsif page.title %}
-			<title>{{ page.title }} - {{ site.title }}</title>
-		{% else %}
-			<title>{{ site.title }}</title>
-		{% endif %}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    {% if page.collectionpage %}
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+    {% elsif page.title %}
+      <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
 
-		{% if site.favicon %}
-			<link rel="shortcut icon" href="{{ site.favicon }}">
-		{% else %}
-			<link rel="shortcut icon" href="{{ site.logo }}">
-		{% endif %}
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
 
-	</head>
-	<body>
-		{{ content }}
-
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
-
-		<script>
-			document.querySelectorAll('a[href]').forEach(link => {
-			  if (
-				link.target === '_blank' ||
-				link.hostname !== window.location.hostname
-			  ) return;
-		  
-			  link.addEventListener('click', function (e) {
-				e.preventDefault();
-				const href = this.href;
-		  
-				const content =
-			document.querySelector('.article');
-				if (content) {
-				  content.classList.add('fade-out');
-				  setTimeout(() => {
-					window.location.href = href;
-				  }, 200); // match animation
-				} else {
-				  window.location.href = href;
-				}
-			  });
-			});
-			function scrollGallery(index) {
-			const gallery = document.getElementById("gallery");
-			const cardWidth = gallery.querySelector(".card").offsetWidth + 20;
-
-			gallery.scrollTo({
-				left: 3 * index * cardWidth,
-				behavior: "smooth"
-			});
-
-			document.querySelectorAll(".dot").forEach(d => d.classList.remove("active"));
-			document.querySelectorAll(".dot")[index].classList.add("active");
-			}
-		  </script>
-
-		  
-	</body>
+    {% if site.favicon %}
+      <link rel="shortcut icon" href="{{ site.favicon }}">
+    {% else %}
+      <link rel="shortcut icon" href="{{ site.logo }}">
+    {% endif %}
+  </head>
+  <body>
+    {{ content }}
+    {% include site-scripts.html %}
+  </body>
 </html>

@@ -18,66 +18,21 @@ Hit me up for a chat anytime!
 See a selection of cool publiciations below. [[All Publications]({% link blog.md %})]
 
 <div class="gallery-wrapper">
-
 <div class="card-gallery" id="gallery">
-    <div class="card">
-    <div class="card-header">
-    <div>
-      <b>Publicly-Verifiable Certificates of Statistical Validity</b><br>
-      Michael Ngo, Michael P. Kim
-    </div>
-    <a href="https://arxiv.org/" class="card-icon-link">
-        <img src="/assets/images/index/arxiv-logomark-small.svg" class="card-icon">
-    </a>
-  </div>
-    <iframe src="https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><i><i>What happens when we delegate machine learning to another party? We build on a a cryptographic proof systems framework call PAC Verifciation [GYRS21] to define proof systems for verifiable delegation, in what we call Publicly-Verifiable Certificates of Statistical Validity (pvCSVs).</i></i></p>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-    <div>
-      <b>Publicly-Verifiable Certificates of Statistical Validity</b><br>
-      Michael Ngo, Michael P. Kim
-    </div>
-    <a href="https://arxiv.org/" class="card-icon-link">
-        <img src="/assets/images/index/arxiv-logomark-small.svg" class="card-icon">
-    </a>
-  </div>
-    <iframe src="https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><i><i>This is a short description of the work</i></i></p>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-    <div>
-      <b>Publicly-Verifiable Certificates of Statistical Validity</b><br>
-      Michael Ngo, Michael P. Kim
-    </div>
-    <a href="https://arxiv.org/" class="card-icon-link">
-        <img src="/assets/images/index/arxiv-logomark-small.svg" class="card-icon">
-    </a>
-  </div>
-    <iframe src="https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><i><i>This is a short description of the work</i></i></p>
-  </div>
-
-   <div class="card">
-    <div class="card-header">
-    <div>
-      <b>Publicly-Verifiable Certificates of Statistical Validity</b><br>
-      Michael Ngo, Michael P. Kim
-    </div>
-    <a href="https://arxiv.org/" class="card-icon-link">
-        <img src="/assets/images/index/arxiv-logomark-small.svg" class="card-icon">
-    </a>
-  </div>
-    <iframe src="https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p><i><i>This is a short description of the work</i></i></p>
-  </div>
+  {% for publication in site.data.publications %}
+    {% include publication-card.html
+      title=publication.title
+      authors=publication.authors
+      link=publication.link
+      icon=publication.icon
+      icon_alt=publication.icon_alt
+      video=publication.video
+      description=publication.description
+    %}
+  {% endfor %}
 </div>
 <div class="gallery-dots">
-    <span class="dot" onclick="scrollGallery(0)"></span>
-    <span class="dot" onclick="scrollGallery(1)"></span>
+  <span class="dot" onclick="scrollGallery(0)"></span>
+  <span class="dot" onclick="scrollGallery(1)"></span>
 </div>
 </div>

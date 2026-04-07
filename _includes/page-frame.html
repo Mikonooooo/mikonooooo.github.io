@@ -1,0 +1,25 @@
+{% include site-header.html %}
+
+<main class="main container">
+  {% if include.wrapper_class %}
+    <div class="{{ include.wrapper_class }}">
+  {% endif %}
+
+  <article class="article {{ include.article_class | default: 'article--page' }} content typeset">
+    {% if include.title %}
+      <h1>{{ include.title }}</h1>
+    {% endif %}
+
+    {{ include.content }}
+
+    {% if include.extra_content %}
+      {{ include.extra_content }}
+    {% endif %}
+  </article>
+
+  {% if include.wrapper_class %}
+    </div>
+  {% endif %}
+</main>
+
+{% include site-footer.html %}

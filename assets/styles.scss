@@ -27,28 +27,6 @@ html {
   }
 }
 
-@keyframes fadeOutMove {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-}
-
-@keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateX(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-}
-
 .site-title {
     font-size: 2rem;
     margin: 0;
@@ -65,15 +43,6 @@ html {
       }
     }
   }
-  
-.fade-in-up {
-    animation: fadeInUp 0.4s ease-out forwards;
-}
-
-/* Page transition effect */
-.fade-out {
-  animation: fadeOutMove 0.2s forwards;
-}
 
 ul li > ul {
   margin-top: 0 !important;
