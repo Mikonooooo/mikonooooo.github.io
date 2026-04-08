@@ -1,25 +1,37 @@
-<a href="{{ include.link }}" class="card-link">
-  <article class="card card--publication">
-    <iframe
-      src="{{ include.video }}"
-      title="{{ include.video_title | default: 'YouTube video player' }}"
-      frameborder="0"
-      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
+<div class="card-shell card-shell--publication">
+  {% if include.paper_url %}
+    <a href="{{ include.paper_url }}" target="_blank" rel="noopener noreferrer" class="card-paper-link">
+      <img src="{{ include.icon }}" class="card-paper-link__icon" alt="{{ include.icon_alt }}">
+      <span>arXiv</span>
+    </a>
+  {% endif %}
 
-    <div class="card-body">
-      <div class="card-header">
-        <div>
-          <b>{{ include.title }}</b><br>
-          <small><i>{{ include.authors }}</i></small>
-        </div>
-        <img src="{{ include.icon }}" class="card-icon" alt="{{ include.icon_alt }}">
-        </div>
-        <!-- <br> -->
+  <a
+    href="{{ include.link | relative_url }}"
+    class="card-link"
+    aria-label="Learn more about {{ include.title }}">
+    <article class="card card--publication card--interactive">
+      <div class="card-media">
+        <iframe
+          src="{{ include.video }}"
+          title="{{ include.video_title | default: 'YouTube video player' }}"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
 
+      <div class="card-body">
+        <div class="card-header">
+          <div>
+            <b class="card-title">{{ include.title }}</b>
+            <small class="card-meta card-meta--publication">{{ include.authors }}</small>
+          </div>
+        </div>
         <small class="small card-description">{{ include.description }}</small>
-    </div>
-  </article>
-</a>
+        <span class="card-cta">Learn More →</span>
+      </div>
+    </article>
+  </a>
+</div>

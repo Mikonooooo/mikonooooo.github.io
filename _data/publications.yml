@@ -1,21 +1,24 @@
-- title: Publicly-Verifiable Certificates of Statistical Validity
+- title: Publicly-Verifiable Certificates for Statistical Algorithms
   authors: Michael Ngo, Michael P. Kim
-  link: https://arxiv.org/
+  link: /publications/2026/04/08/pvcsv/
+  paper_url: https://arxiv.org/
   icon: /assets/images/index/arxiv-logomark-small.svg
   icon_alt: arXiv
   video: https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq?controls=0&rel=0
   description: What happens when we delegate machine learning to another party? We build on a a cryptographic proof systems framework call PAC Verifciation [GYRS21] to define proof systems for verifiable delegation, in what we call Publicly-Verifiable Certificates of Statistical Validity (pvCSVs).
-- title: Publicly-Verifiable Certificates of Statistical Validity
+- title: Sample Publication Placeholder Two
   authors: Michael Ngo, Michael P. Kim
-  link: https://arxiv.org/
+  link: /publications/2026/04/08/publication-placeholder-two/
+  paper_url: https://arxiv.org/
   icon: /assets/images/index/arxiv-logomark-small.svg
   icon_alt: arXiv
   video: https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq
-  description: This is a short description of the work
-- title: Publicly-Verifiable Certificates of Statistical Validity
+  description: A dummy publication page for previewing how future research writeups, videos, and summaries will appear on the site.
+- title: Sample Publication Placeholder Three
   authors: Michael Ngo, Michael P. Kim
-  link: https://arxiv.org/
+  link: /publications/2026/04/08/publication-placeholder-three/
+  paper_url: https://arxiv.org/
   icon: /assets/images/index/arxiv-logomark-small.svg
   icon_alt: arXiv
   video: https://www.youtube.com/embed/dOzQ5cOiY6I?si=VYahWY5jFvBQZVAq
-  description: This is a short description of the work
+  description: Another placeholder entry to demonstrate the publication card layout, hover state, and dedicated detail page flow.

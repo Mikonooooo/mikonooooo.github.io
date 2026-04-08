@@ -69,6 +69,7 @@ See a selection of cool publiciations below. [[All Publications]({% link blog.md
       title=publication.title
       authors=publication.authors
       link=publication.link
+      paper_url=publication.paper_url
       icon=publication.icon
       icon_alt=publication.icon_alt
       video=publication.video
@@ -78,14 +79,14 @@ See a selection of cool publiciations below. [[All Publications]({% link blog.md
 </div>
 </div>
 
-### Leadership & Outreach
-{: #leadership-outreach .home-section}
+### Leadership
+{: #leadership .home-section}
 
 Here are a few pieces about teaching, mentoring, and making ideas more accessible.
 
 <div class="gallery-wrapper">
 <div class="card-gallery">
-  {% for item in site.data.leadership_outreach %}
+  {% for item in site.data.leadership %}
     {% include linked-card.html
       title=item.title
       position=item.position
@@ -98,14 +99,35 @@ Here are a few pieces about teaching, mentoring, and making ideas more accessibl
 </div>
 </div>
 
-### Blog Highlights
-{: #blog-highlights .home-section}
+### Explainers
+{: #explainers .home-section}
+
+Longer explainers, projects, and exposition pieces.
+
+<div class="gallery-wrapper">
+<div class="card-gallery">
+  {% for item in site.data.explainers %}
+    {% include linked-card.html
+      title=item.title
+      date=item.date
+      category=item.category
+      description=item.description
+      image=item.image
+      image_alt=item.image_alt
+      url=item.url
+    %}
+  {% endfor %}
+</div>
+</div>
+
+### Tidbits
+{: #tidbits .home-section}
 
 Some writing highlights from across the site. [[All Blog Posts]({% link blog.md %})]
 
 <div class="gallery-wrapper">
 <div class="card-gallery">
-  {% for item in site.data.blog_highlights %}
+  {% for item in site.data.tidbits %}
     {% include linked-card.html
       title=item.title
       date=item.date

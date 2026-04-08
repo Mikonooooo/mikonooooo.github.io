@@ -38,7 +38,9 @@ navbar:
     url: /#about-me
   - title: Selected Publications
     url: /#selected-publications
-  - title: Leadership & Outreach
-    url: /#leadership-outreach
-  - title: Blog Highlights
-    url: /#blog-highlights
+  - title: Leadership
+    url: /#leadership
+  - title: Explainers
+    url: /#explainers
+  - title: Tidbits
+    url: /#tidbits
