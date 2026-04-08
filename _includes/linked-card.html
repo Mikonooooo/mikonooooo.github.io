@@ -1,5 +1,7 @@
 <a href="{{ include.url | relative_url }}" class="card-link">
   <article class="card card--linked">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
+
     <div class="card-body">
       <b class="card-title">{{ include.title }}</b>
       {% if include.position %}
@@ -10,7 +12,5 @@
       {% endif %}
       <small class="card-description">{{ include.description }}</small>
     </div>
-
-    <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
   </article>
 </a>
