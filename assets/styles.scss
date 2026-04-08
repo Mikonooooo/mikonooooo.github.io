@@ -28,7 +28,7 @@ html {
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 0;
     line-height: 1.2;
   
@@ -43,6 +43,14 @@ html {
       }
     }
   }
+
+.nav a {
+  color: inherit;
+}
+
+.home-section {
+  scroll-margin-top: 7rem;
+}
 
 ul li > ul {
   margin-top: 0 !important;
@@ -143,13 +151,13 @@ img {
 }
 
 .hero-intro__audio-button {
-  align-items: flex-end;
+  align-items: center;
   background: transparent;
   border: 0;
   cursor: pointer;
   display: inline-flex;
-  margin-bottom: 0.18rem;
-  padding: 0;
+  // margin-bottom: 1rem;
+  padding: 1rem 0;
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 

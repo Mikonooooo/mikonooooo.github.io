@@ -17,7 +17,7 @@ title: Home
         Your browser does not support the audio element.
       </audio>
     </div>
-    <div class="hero-intro__line">Incoming Computer Science PhD Candidate @ MIT</div>
+    <div class="hero-intro__line">Senior in Computer Science @ Cornell</div>
     <div class="hero-intro__line">
       mn542@cornell.edu
     </div>
@@ -26,8 +26,6 @@ title: Home
       <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
       |
       <a href="#">Google Scholar</a>
-      |
-      <a href="https://www.youtube.com/@mikono04">YouTube</a>
     </div>
   </div>
 </section>
@@ -50,20 +48,17 @@ title: Home
 </script>
 
 ### About Me
+{: #about-me .home-section}
 
-I'm fourth-year undergraduate studying computer science at Cornell University.
+Hi! I'm currently a senior studying Computer Science at Cornell University, advised by [Michael P. Kim](https://www.cs.cornell.edu/~mpkim/). My research interests comprise of the intersection of cryptography and machine learning theory (which is sometimes called crypto+ML). In the summers of 2024 and 2025, I explored research via the [Bowers Undergraduate Research Experience](https://bowers.cornell.edu/research/undergraduate-research/bowers-undergraduate-research-experience). In the summer of 2024, I was fortunate to be co-advised by Michael P. Kim and [Noah Stephens-Davidowitz](https://www.noahsd.com/).
 
-I'm interested in theoretical computer science (cryptography, learning theory, proof systems).
+I co-founded and am currently organizing an [undergraduate theory club](https://theoryclub.cs.cornell.edu/) at Cornell. I am also a peer mentor for the [Engineering Leadership Certification Program](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), of which I completed the certification the year prior. Finally, I have served as a teaching assistant for 5 semesters for the Mathematical Foundations of Computer Science (CS 2800) and Introduction to the Analysis of Algorithms (CS 4820). 
 
-I'm a peer mentor for the Cornell Engineering Leadership Certification Program. I have been a TA for algorithms and discrete math. I led new member onboarding for the Cornell Data Science project team. I facilitated mastermind circles for goal-oriented Cornellians.
-
-I post a few math videos on [YouTube](https://www.youtube.com/@mikono04). I enjoy anime and connecting with people. 
-
-Hit me up for a chat anytime!
-
+I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link blog.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat anytime!**
 
 
 ### Selected Publications 
+{: #selected-publications .home-section}
 
 See a selection of cool publiciations below. [[All Publications]({% link blog.md %})]
 
@@ -84,6 +79,7 @@ See a selection of cool publiciations below. [[All Publications]({% link blog.md
 </div>
 
 ### Leadership & Outreach
+{: #leadership-outreach .home-section}
 
 Here are a few pieces about teaching, mentoring, and making ideas more accessible.
 
@@ -102,9 +98,10 @@ Here are a few pieces about teaching, mentoring, and making ideas more accessibl
 </div>
 </div>
 
-### Blog
+### Blog Highlights
+{: #blog-highlights .home-section}
 
-Some writing highlights from across the site.
+Some writing highlights from across the site. [[All Blog Posts]({% link blog.md %})]
 
 <div class="gallery-wrapper">
 <div class="card-gallery">
