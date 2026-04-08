@@ -21,12 +21,19 @@ title: Home
     <div class="hero-intro__line">
       mn542@cornell.edu
     </div>
-    <div class="hero-intro__tagline">Exploring Crypto+ML;<br>Championing community, growth, and authenticity.</div>
+    <div class="hero-intro__tagline">Cryptography & Machine Learning<br>Community, Growth, Authenticity</div>
     <div class="hero-intro__line"> Links:
       <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
       |
       <a href="#">Google Scholar</a>
     </div>
+  </div>
+</section>
+
+<section class="recent-news">
+  <div class="recent-news__box">
+    <div class="recent-news__title"><b>Updates</b><br>
+   04/15/26 Excited to start my PhD at MIT this fall! </div>
   </div>
 </section>
 
@@ -62,6 +69,8 @@ I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and 
 
 See a selection of cool publiciations below. [[All Publications]({% link blog.md %})]
 
+Here, I should explain my interests a bit more.
+
 <div class="gallery-wrapper">
 <div class="card-gallery">
   {% for publication in site.data.publications %}
@@ -84,8 +93,10 @@ See a selection of cool publiciations below. [[All Publications]({% link blog.md
 
 Here are a few pieces about teaching, mentoring, and making ideas more accessible.
 
+Here, I should explain my leadership interests a bit more.
+
 <div class="gallery-wrapper">
-<div class="card-gallery">
+<div class="card-gallery card-gallery--stacked">
   {% for item in site.data.leadership %}
     {% include linked-card.html
       title=item.title
@@ -99,35 +110,14 @@ Here are a few pieces about teaching, mentoring, and making ideas more accessibl
 </div>
 </div>
 
-### Explainers
+### Explainers & Tidbits
 {: #explainers .home-section}
 
-Longer explainers, projects, and exposition pieces.
+Longer explainers, projects, and exposition pieces. [[All Blog Posts]({% link blog.md %})]
 
 <div class="gallery-wrapper">
-<div class="card-gallery">
+<div class="card-gallery card-gallery--stacked">
   {% for item in site.data.explainers %}
-    {% include linked-card.html
-      title=item.title
-      date=item.date
-      category=item.category
-      description=item.description
-      image=item.image
-      image_alt=item.image_alt
-      url=item.url
-    %}
-  {% endfor %}
-</div>
-</div>
-
-### Tidbits
-{: #tidbits .home-section}
-
-Some writing highlights from across the site. [[All Blog Posts]({% link blog.md %})]
-
-<div class="gallery-wrapper">
-<div class="card-gallery">
-  {% for item in site.data.tidbits %}
     {% include linked-card.html
       title=item.title
       date=item.date

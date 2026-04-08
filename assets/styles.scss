@@ -12,6 +12,12 @@ html {
 }
 
 .header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+
   .container {
     .branding {
       display: flex;
@@ -48,8 +54,12 @@ html {
   color: inherit;
 }
 
+.main {
+  padding-top: 5.5rem;
+}
+
 .home-section {
-  scroll-margin-top: 7rem;
+  scroll-margin-top: 8rem;
 }
 
 ul li > ul {
@@ -191,6 +201,45 @@ img {
   font-style: italic;
 }
 
+.recent-news {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2.5rem;
+}
+
+.recent-news__box {
+  background: #fffaf0;
+  border: 1px solid #d8cba6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(80, 60, 20, 0.08);
+  max-width: 620px;
+  padding: 0 0.9rem;
+  width: fit-content;
+  max-width: min(100%, 620px);
+}
+
+.recent-news__title {
+  margin: 1rem 0 1rem;
+  text-align: left;
+
+}
+
+.recent-news__list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.recent-news__item + .recent-news__item {
+  // margin-top: 0.2rem;
+}
+
+.recent-news__date {
+  font-family: Menlo, monospace;
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+}
+
 @media (min-width: 700px) {
   .hero-intro {
     flex-direction: row;
@@ -211,10 +260,34 @@ img {
 .card-gallery {
   align-items: start;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 286px));
   gap: 20px;
   justify-content: start;
-  padding: 10px;
+  padding: 0px;
+}
+
+.card-gallery--stacked {
+  column-gap: 20px;
+  column-count: 1;
+  display: block;
+}
+
+.card-gallery--stacked > .card-link {
+  break-inside: avoid;
+  display: block;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 610px) {
+  .card-gallery--stacked {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 840px) {
+  .card-gallery--stacked {
+    column-count: 3;
+  }
 }
 
 .card {
