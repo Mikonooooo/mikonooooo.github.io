@@ -33,8 +33,8 @@ title: Home
 <section class="recent-news">
   <div class="recent-news__box">
     <div class="recent-news__title"><b>Updates</b><br>
-  4/13/25 Honored to be accepted for the NSF GRFP!<br>
-  4/15/26 Excited to start my PhD at MIT this fall!
+  4/15/26 Excited to start my PhD at MIT this fall!<br>
+  4/13/26 Honored to be accepted for the NSF GRFP!
    </div>
   </div>
 </section>
