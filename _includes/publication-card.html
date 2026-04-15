@@ -12,14 +12,10 @@
     aria-label="Learn more about {{ include.title }}">
     <article class="card card--publication card--interactive">
       <div class="card-media">
-        <iframe
-          src="{{ include.video }}"
-          title="{{ include.video_title | default: 'YouTube video player' }}"
-          frameborder="0"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen>
-        </iframe>
+        <img
+          src="{{ include.image | relative_url }}"
+          alt="{{ include.image_alt | default: include.title }}"
+          class="card-image card-image--publication">
       </div>
 
       <div class="card-body">
@@ -27,6 +23,9 @@
           <div>
             <b class="card-title">{{ include.title }}</b>
             <small class="card-meta card-meta--publication">{{ include.authors }}</small>
+            {% if include.venue %}
+              <small class="card-meta card-meta--venue">{{ include.venue }}</small>
+            {% endif %}
           </div>
         </div>
         <small class="small card-description">{{ include.description }}</small>

@@ -458,9 +458,9 @@ img {
   width: 0.95rem;
 }
 
-.card iframe {
+.card-image--publication {
   border-radius: 8px;
-  pointer-events: none;
+  display: block;
   width: 100%;
 }
 

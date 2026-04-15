@@ -1,7 +1,7 @@
 ---
 title: Sample Publication Placeholder Two
-category: Publications
-permalink: /publications/2026/04/08/publication-placeholder-two/
+category: Research
+permalink: /research/2026/04/08/publication-placeholder-two/
 ---
 
 This is a dummy publication post used to test the publication-card interaction on the homepage.

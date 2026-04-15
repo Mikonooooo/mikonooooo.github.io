@@ -36,9 +36,9 @@ lang: en-US
 navbar:
   - title: About Me
     url: /#about-me
-  - title: Selected Publications
+  - title: Publications
     url: /#selected-publications
-  - title: Leadership
-    url: /#leadership
+  - title: Community
+    url: /#community-engagement
   - title: Explainers & Tidbits
     url: /#explainers

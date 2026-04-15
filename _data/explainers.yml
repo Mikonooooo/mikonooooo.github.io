@@ -2,14 +2,14 @@
   date: September 10, 2025
   category: YouTube
   description: Inspired by the world of chess, let's use a statistical model to figure out who's the best tennis player... and test it is practice!
-  image: /assets/images/test-taking/barton.jpg
-  image_alt: Portrait used for the tennis post card
+  image: /assets/images/tennis/thumbnail.jpg
+  image_alt: Three famous tennis players. Carlos Alcaraz, Jannik Sinner, and Novak Djokovic
   url: /youtube/2025/09/10/te/
 - title: A lens on machine learning for the general public
   date: April 19, 2025
   category: Computer Science
   description: A gentle introduction to machine learning, going over bias-variance tradeoffs, and brief overview of scaling laws and ethical considerations.
-  image: /assets/images/2025-04-19-ml/mario.png
+  image: /assets/images/2025-04-19-ml/bv-tradeoff.png
   image_alt: Super Mario image from the machine learning post
   url: /computer-science/2025/04/19/ml/
 - title: On writing essays for fun

@@ -33,7 +33,9 @@ title: Home
 <section class="recent-news">
   <div class="recent-news__box">
     <div class="recent-news__title"><b>Updates</b><br>
-   04/15/26 Excited to start my PhD at MIT this fall! </div>
+  4/13/25 Honored to be accepted for the NSF GRFP!<br>
+  4/15/26 Excited to start my PhD at MIT this fall!
+   </div>
   </div>
 </section>
 
@@ -64,12 +66,11 @@ I co-founded and am currently organizing an [undergraduate theory club](https://
 I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link blog.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat anytime!**
 
 
-### Selected Publications 
+### Selected Publications
 {: #selected-publications .home-section}
 
-See a selection of cool publiciations below. [[All Publications]({% link blog.md %})]
+My research interests intersect cryptography, proof systems, and machine learning. [[All Research]({% link research.md %})]
 
-Here, I should explain my interests a bit more.
 
 <div class="gallery-wrapper">
 <div class="card-gallery">
@@ -77,23 +78,23 @@ Here, I should explain my interests a bit more.
     {% include publication-card.html
       title=publication.title
       authors=publication.authors
+      venue=publication.venue
       link=publication.link
       paper_url=publication.paper_url
       icon=publication.icon
       icon_alt=publication.icon_alt
-      video=publication.video
+      image=publication.image
+      image_alt=publication.image_alt
       description=publication.description
     %}
   {% endfor %}
 </div>
 </div>
 
-### Leadership
-{: #leadership .home-section}
+### Community Engagement
+{: #community-engagement .home-section}
 
-Here are a few pieces about teaching, mentoring, and making ideas more accessible.
-
-Here, I should explain my leadership interests a bit more.
+I really value engaging with the community, to create communities via clubs, raise the next generations of leaders, and help others achieve their goals. [[All Community Engagement]({% link community-engagement.md %})]
 
 <div class="gallery-wrapper">
 <div class="card-gallery card-gallery--stacked">
@@ -113,7 +114,7 @@ Here, I should explain my leadership interests a bit more.
 ### Explainers & Tidbits
 {: #explainers .home-section}
 
-Longer explainers, projects, and exposition pieces. [[All Blog Posts]({% link blog.md %})]
+I love to post mathy videos on my YouTube and post expositional pieces here. [[All Blog Posts]({% link blog.md %})]
 
 <div class="gallery-wrapper">
 <div class="card-gallery card-gallery--stacked">
