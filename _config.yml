@@ -22,6 +22,7 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
+
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Michael Ngo" # Site name or title
@@ -33,9 +34,11 @@ baseurl: ""
 lang: en-US
 
 navbar:
-  - title: Home
-    url: /
-  - title: Writing
-    url: /writing/
-  - title: Resume
-    url: /resume/
+  - title: About Me
+    url: /#about-me
+  - title: Publications
+    url: /#selected-publications
+  - title: Community
+    url: /#community-engagement
+  - title: Explainers & Tidbits
+    url: /#explainers

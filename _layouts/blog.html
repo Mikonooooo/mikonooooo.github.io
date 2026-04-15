@@ -2,26 +2,13 @@
 layout: default
 ---
 
-{% include site-header.html %}
+{% capture blog_content %}
+  {{ content }}
+  {% include post-list.html %}
+{% endcapture %}
 
-<main class="main  container">
-
-    <div class = "content fade-in-up">
-
-	<article class="article  article--page content typeset">
-
-    <h1>{{ page.title }}</h1>
-
-    {{ content }}
-
-    {% include post-list.html %}
-
-  </article>
-
-  
-
-  </div>
-
-</main>
-
-{% include site-footer.html %}
+{% include page-frame.html
+  title=page.title
+  content=blog_content
+  wrapper_class="content"
+%}

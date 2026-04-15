@@ -1,16 +1,18 @@
-{% if page.categories %}
+{% assign post = include.post | default: page %}
+
+{% if post.categories %}
   {% capture categories %}
-    {% for category in page.categories %}
+    {% for category in post.categories %}
       <span class="label  label--category">{{ category }}</span>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   {% endcapture %}
-{% elsif page.category %}
+{% elsif post.category %}
   {% capture categories %}
-    <span class="label  label--category">{{ page.category }}</span>
+    <span class="label  label--category">{{ post.category }}</span>
   {% endcapture %}
 {% endif %}
 
-{% assign words = page.content | number_of_words %}
+{% assign words = post.content | number_of_words %}
 {% if words < 360 %}
   {% assign reading_time = '1 min read' %}
 {% else %}
@@ -18,5 +20,5 @@
 {% endif %}
 
 <small class="small  post-meta">
-  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date_to_string }}</time>{{ "&nbsp;&middot;&nbsp;" | append: reading_time }}
+  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date_to_string }}</time>{{ "&nbsp;&middot;&nbsp;" | append: reading_time }}
 </small>
