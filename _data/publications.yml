@@ -7,4 +7,5 @@
   icon_alt: arXiv
   image: /assets/images/pvcsv/thumbnail.png
   image_alt: Slide thumbnail for Publicly-Verifiable Certificates of Statistical Validity
-  description: What happens when we delegate machine learning to another party? We build on a a cryptographic proof systems framework call PAC Verifciation [GYRS21] to define proof systems for verifiable delegation, in what we call Publicly-Verifiable Certificates of Statistical Validity (pvCSVs).
+  description: "PAC Verification, SQ Model, Adaptive Data Analysis, Fiat-Shamir Transformation, Differential Privacy"
+  

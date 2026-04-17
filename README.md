@@ -157,3 +157,9 @@ Then open `http://127.0.0.1:4000` in your browser.
 
 - `_site/` is generated output.
 - You generally should not edit `_site/` by hand, because Jekyll rebuilds it from the source files in this repository.
+
+
+## TODO
+- update pvCSV article
+- update theory club, leadership, mastermind circles post
+- link YouTube channel?

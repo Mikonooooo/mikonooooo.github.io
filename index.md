@@ -26,6 +26,8 @@ title: Home
       <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
       |
       <a href="#">Google Scholar</a>
+      |
+      <a href="https://www.youtube.com/@mikono04">YouTube</a>
     </div>
   </div>
 </section>
@@ -33,8 +35,8 @@ title: Home
 <section class="recent-news">
   <div class="recent-news__box">
     <div class="recent-news__title"><b>Updates</b><br>
-  4/15/26 Excited to start my PhD at MIT this fall!<br>
-  4/13/26 Honored to be accepted for the NSF GRFP!
+  4/15/26 I am starting my PhD this fall at MIT!<br>
+  4/13/26 I am a recipient of the NSF GRFP!
    </div>
   </div>
 </section>

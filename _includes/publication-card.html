@@ -22,13 +22,13 @@
         <div class="card-header">
           <div>
             <b class="card-title">{{ include.title }}</b>
-            <small class="card-meta card-meta--publication">{{ include.authors }}</small>
+            <span class="card-meta card-meta--publication">{{ include.authors }}</span>
             {% if include.venue %}
-              <small class="card-meta card-meta--venue">{{ include.venue }}</small>
+              <span class="card-meta card-meta--venue">{{ include.venue }}</span>
             {% endif %}
           </div>
         </div>
-        <small class="small card-description">{{ include.description }}</small>
+        <span class="small card-description">{{ include.description }}</span>
         <span class="card-cta">Learn More →</span>
       </div>
     </article>
