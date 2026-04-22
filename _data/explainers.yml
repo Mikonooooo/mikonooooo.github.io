@@ -1,21 +1,27 @@
 - title: Who's the best tennis player?
   date: September 10, 2025
   category: YouTube
-  description: Inspired by the world of chess, let's use a statistical model to figure out who's the best tennis player... and test it is practice!
+  description: Inspired by the world of chess, let's use the ELO model to figure out who's the best tennis player... and test it in practice!
   image: /assets/images/tennis/thumbnail.jpg
   image_alt: Three famous tennis players. Carlos Alcaraz, Jannik Sinner, and Novak Djokovic
   url: /youtube/2025/09/10/te/
+  external_url: https://www.youtube.com/watch?v=dOzQ5cOiY6I
+  external_label: YouTube
 - title: On writing essays for fun
   date: May 20, 2025
   category: General
-  description: You don't know what think until you write it.
+  description: Turns out writing helps me think.
   image: /assets/images/essay/essay.jpg
   image_alt: Person writing an essay
   url: /general/2025/05/20/es/
-- title: A lens on machine learning for the general public
+  external_url:
+  external_label: Website
+- title: Introduction to Machine Learning
   date: April 19, 2025
   category: Computer Science
-  description: A gentle introduction to machine learning, going over bias-variance tradeoffs, and brief overview of scaling laws and ethical considerations.
-  image: /assets/images/2025-04-19-ml/bv-tradeoff.png
-  image_alt: Super Mario image from the machine learning post
+  description: Introducing supervised machine learning, bias-variance tradeoffs, scaling laws and ethical considerations.
+  image: /assets/images/2025-04-19-ml/thumbnail.png
+  image_alt: Bias variance decompositions
   url: /computer-science/2025/04/19/ml/
+  external_url:
+  external_label: Website

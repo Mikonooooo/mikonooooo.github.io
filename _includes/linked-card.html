@@ -1,26 +1,34 @@
-<a
-  href="{{ include.url | relative_url }}"
-  class="card-link"
-  aria-label="Learn more about {{ include.title }}">
-  <article class="card card--linked card--interactive">
-    <div class="card-media">
-      <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
-    </div>
+<div class="card-shell card-shell--linked">
+  {% if include.external_url %}
+    <a href="{{ include.external_url }}" target="_blank" rel="noopener noreferrer" class="card-paper-link card-paper-link--external">
+      <span>{{ include.external_label | default: "Website" }}</span>
+    </a>
+  {% endif %}
 
-    <div class="card-body">
-      <div class="card-header">
-        <div>
-          <b class="card-title">{{ include.title }}</b>
-          {% if include.position %}
-            <span class="card-meta"><i>{{ include.position }}</i></span>
-          {% endif %}
-          {% if include.date or include.category %}
-            <span class="card-meta"><i>{% if include.date %}{{ include.date }}{% endif %}{% if include.date and include.category %} · {% endif %}{% if include.category %}{{ include.category }}{% endif %}</i></span>
-          {% endif %}
-        </div>
+  <a
+    href="{{ include.url | relative_url }}"
+    class="card-link"
+    aria-label="Learn more about {{ include.title }}">
+    <article class="card card--linked card--interactive">
+      <div class="card-media">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
       </div>
-      <span class="small card-description">{{ include.description }}</span>
-      <span class="card-cta">Learn More →</span>
-    </div>
-  </article>
-</a>
+
+      <div class="card-body">
+        <div class="card-header">
+          <div>
+            <b class="card-title">{{ include.title }}</b>
+            {% if include.position %}
+              <span class="card-meta"><i>{{ include.position }}</i></span>
+            {% endif %}
+            {% if include.date or include.category %}
+              <span class="card-meta"><i>{% if include.date %}{{ include.date }}{% endif %}{% if include.date and include.category %} · {% endif %}{% if include.category %}{{ include.category }}{% endif %}</i></span>
+            {% endif %}
+          </div>
+        </div>
+        <span class="small card-description">{{ include.description }}</span>
+        <span class="card-cta">Learn More →</span>
+      </div>
+    </article>
+  </a>
+</div>

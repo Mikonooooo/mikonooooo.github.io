@@ -17,12 +17,13 @@ title: Home
         Your browser does not support the audio element.
       </audio>
     </div>
-    <div class="hero-intro__line">Incoming Computer Science PhD Student at MIT</div>
-    <div class="hero-intro__line hero-intro__email">
+    <div class="hero-intro__line">Incoming PhD Student at MIT EECS<br>
+    Cryptography & ML</div>
+    <div class="hero-intro__email">
       mingo@mit.edu
     </div>
-    <div class="hero-intro__tagline">Cryptography & Machine Learning<br>Community, Growth, Authenticity</div>
-    <div class="hero-intro__line"> Links:
+    <!-- <div class="hero-intro__tagline">Research in Cryptography & Machine Learning</div> -->
+    <div class="hero-intro__tagline"> Links:
       <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
       |
       <a href="#">Google Scholar</a>
@@ -31,14 +32,17 @@ title: Home
       |
       <a href="https://www.youtube.com/@mikono04">YouTube</a>
     </div>
+    <div class="hero-intro__tagline"><i>growth<br>authenticity<br>helping others<br>belonging</i></div>
   </div>
 </section>
 
 <section class="recent-news">
   <div class="recent-news__box">
     <div class="recent-news__title"><b>Updates</b><br>
-  4/15/26 I am starting my PhD this fall at MIT!<br>
-  4/13/26 I am a recipient of the NSF GRFP!
+    <span>
+    Starting my PhD at MIT in the fall! 
+    <br>Awarded the 2026 NSF GRFP!
+    </span>
    </div>
   </div>
 </section>
@@ -110,6 +114,8 @@ I really value engaging with the community, to create communities via clubs, rai
       image=item.image
       image_alt=item.image_alt
       url=item.url
+      external_url=item.external_url
+      external_label=item.external_label
     %}
   {% endfor %}
 </div>
@@ -131,6 +137,8 @@ I love to post mathy videos on my YouTube and post expositional pieces here. [[A
       image=item.image
       image_alt=item.image_alt
       url=item.url
+      external_url=item.external_url
+      external_label=item.external_label
     %}
   {% endfor %}
 </div>
