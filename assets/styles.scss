@@ -197,6 +197,11 @@ img {
   font-size: 1.1rem;
 }
 
+.hero-intro__email {
+  font-family: Menlo, monospace;
+  font-size: 0.95rem;
+}
+
 .hero-intro__tagline {
   font-style: italic;
 }
@@ -368,17 +373,22 @@ img {
 
 .card-meta {
   display: block;
-  font-style: italic;
   line-height: 1.05;
+}
+
+.card-meta--authors {
+  
+}
+
+.card-meta--venue {
+  margin-top: 0.25rem;
+  font-style: italic;
 }
 
 .card-meta--links {
   margin-top: 0.15rem;
 }
 
-.card-meta--publication {
-  line-height: 0.95;
-}
 
 .card-meta--links a {
   position: relative;

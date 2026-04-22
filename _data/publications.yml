@@ -1,11 +1,11 @@
 - title: Publicly-Verifiable Certificates for Statistical Algorithms
   authors: Michael Ngo, Michael P. Kim
-  venue: preprint
+  venue: In Submission
   link: /research/2026/04/08/pvcsv/
   paper_url: https://arxiv.org/
   icon: /assets/images/index/arxiv-logomark-small.svg
   icon_alt: arXiv
   image: /assets/images/pvcsv/thumbnail.png
   image_alt: Slide thumbnail for Publicly-Verifiable Certificates of Statistical Validity
-  description: "PAC Verification, SQ Model, Adaptive Data Analysis, Fiat-Shamir Transformation, Differential Privacy"
+  description: Constructed non-interactive proof system for delegating any SQ algorithm with provable exponential savings in sample complexity.
   

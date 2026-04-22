@@ -17,15 +17,17 @@ title: Home
         Your browser does not support the audio element.
       </audio>
     </div>
-    <div class="hero-intro__line">Senior in Computer Science @ Cornell</div>
-    <div class="hero-intro__line">
-      mn542@cornell.edu
+    <div class="hero-intro__line">Incoming Computer Science PhD Student at MIT</div>
+    <div class="hero-intro__line hero-intro__email">
+      mingo@mit.edu
     </div>
     <div class="hero-intro__tagline">Cryptography & Machine Learning<br>Community, Growth, Authenticity</div>
     <div class="hero-intro__line"> Links:
       <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
       |
       <a href="#">Google Scholar</a>
+      |
+      <a href="https://www.linkedin.com/in/mic-ngo/">LinkedIn</a>
       |
       <a href="https://www.youtube.com/@mikono04">YouTube</a>
     </div>
@@ -65,7 +67,7 @@ Hi! I'm currently a senior studying Computer Science at Cornell University, advi
 
 I co-founded and am currently organizing an [undergraduate theory club](https://theoryclub.cs.cornell.edu/) at Cornell. I am also a peer mentor for the [Engineering Leadership Certification Program](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), of which I completed the certification the year prior. Finally, I have served as a teaching assistant for 5 semesters for the Mathematical Foundations of Computer Science (CS 2800) and Introduction to the Analysis of Algorithms (CS 4820). 
 
-I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link blog.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat anytime!**
+I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link blog.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat!**
 
 
 ### Selected Publications
