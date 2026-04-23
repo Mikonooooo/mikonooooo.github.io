@@ -21,24 +21,33 @@ title: Home
     Cryptography & ML</div>
     <div class="hero-intro__email">
       mingo@mit.edu
+    </div> <br>
+    <div class="hero-intro__line">
+    <i>
+    Growth<br>
+    Authenticity<br>
+    Helping Others<br>
+    Belonging</i>
     </div>
+    <br>
     <!-- <div class="hero-intro__tagline">Research in Cryptography & Machine Learning</div> -->
-    <div class="hero-intro__tagline"> Links:
-      <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
-      |
-      <a href="#">Google Scholar</a>
-      |
-      <a href="https://www.linkedin.com/in/mic-ngo/">LinkedIn</a>
-      |
-      <a href="https://www.youtube.com/@mikono04">YouTube</a>
-    </div>
-    <div class="hero-intro__tagline"><i>growth<br>authenticity<br>helping others<br>belonging</i></div>
+    <!-- <div class="hero-intro__tagline"><i>growth<br>authenticity<br>helping others<br>belonging</i></div> -->
   </div>
 </section>
 
+<div class="hero-links">
+  <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
+  |
+  <a href="#">Google Scholar</a>
+  |
+  <a href="https://www.linkedin.com/in/mic-ngo/">LinkedIn</a>
+  |
+  <a href="https://www.youtube.com/@mikono04">YouTube</a>
+</div>
+
 <section class="recent-news">
   <div class="recent-news__box">
-    <div class="recent-news__title"><b>Updates</b><br>
+    <div class="recent-news__title"><b>Recent News</b><br>
     <span>
     Starting my PhD at MIT in the fall! 
     <br>Awarded the 2026 NSF GRFP!

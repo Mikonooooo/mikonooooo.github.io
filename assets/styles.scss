@@ -119,12 +119,12 @@ img {
 .hero-intro {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;        /* center children horizontally */
+  align-items: center;        /* center children horizontally */
   justify-content: center;
 
   max-width: 860px;
-  margin: 2.5rem auto 0;
-  padding: 1rem 0;
+  margin: 2rem auto 0;
+  padding: 1rem 0 0;
   gap:1em;
 
   text-align: center;
@@ -194,7 +194,7 @@ img {
 }
 
 .hero-intro__line{
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   font-size: 1.5rem;
   margin: 0;
   pad: 0;
@@ -213,10 +213,16 @@ img {
   font-size: 1.3rem;
 }
 
+.hero-links {
+  line-height: 1.6rem;
+  margin: 1rem auto 1rem;
+  text-align: center;
+}
+
 .recent-news {
   display: flex;
   justify-content: center;
-  margin: 0 auto 2.5rem;
+  margin: 1.5rem auto 3rem ;
 }
 
 .recent-news__box {
