@@ -77,19 +77,19 @@ table {
   width: auto !important;
   margin: auto; /* Top: 1em | Left/Right: auto | Bottom: 2em */
   margin-bottom: 1em !important;
-  border: 1px solid #000;
+  border: 1px solid $ui-black;
   border-collapse: collapse;
 }
 table th, table td {
-  border: 1px solid #000;
+  border: 1px solid $ui-black;
   padding: 8px;
 }
 
 .dropdown {
-  border: 1px solid #000000;
+  border: 1px solid $ui-black;
   padding: 0.5rem;
   margin: 1rem 0;
-  background-color: darken(#ffffff, 5%);
+  background-color: darken($ui-white, 5%);
 }
 
 .dropdown__summary {
@@ -105,7 +105,7 @@ table th, table td {
 .dropdown__content {
   padding: 0.5rem 0;
   margin-top: 0.5rem;
-  border-top: 1px dashed #000000;
+  border-top: 1px dashed $ui-black;
 }
 
 img { 
@@ -139,9 +139,9 @@ img {
 
   margin: 0 0 1em;
 
-  border: 1px solid #d8cba6;
+  border: 1px solid $ui-sand-border;
   border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(80, 60, 20, 0.12);
+  box-shadow: 0 8px 24px rgba($ui-warm-shadow, 0.12);
 }
 
 .hero-intro__content {
@@ -226,10 +226,10 @@ img {
 }
 
 .recent-news__box {
-  background: #fffaf0;
-  border: 1px solid #d8cba6;
+  background: $ui-sand-surface;
+  border: 1px solid $ui-sand-border;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(80, 60, 20, 0.08);
+  box-shadow: 0 2px 6px rgba($ui-warm-shadow, 0.08);
   max-width: 620px;
   padding: 0 0.9rem;
   width: fit-content;
@@ -307,10 +307,10 @@ img {
 
 .card {
   border-radius: 8px;
-  border: 1px solid #d8cba6;
+  border: 1px solid $ui-sand-border;
   padding: 16px;
-  background: #fffaf0;
-  box-shadow: 0 2px 6px rgba(80, 60, 20, 0.08);
+  background: $ui-sand-surface;
+  box-shadow: 0 2px 6px rgba($ui-warm-shadow, 0.08);
 }
 
 .card--interactive {
@@ -327,7 +327,7 @@ img {
 
 .card--interactive:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(80, 60, 20, 0.14);
+  box-shadow: 0 6px 18px rgba($ui-warm-shadow, 0.14);
 }
 
 .card-link {
@@ -345,7 +345,7 @@ img {
 .card-link:hover .card--interactive,
 .card-link:focus .card--interactive {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(80, 60, 20, 0.14);
+  box-shadow: 0 6px 18px rgba($ui-warm-shadow, 0.14);
 }
 
 .card-link--cover {
@@ -356,7 +356,7 @@ img {
 
 .card-link--cover:focus ~ .card-media,
 .card-link--cover:focus ~ .card-body {
-  outline: 2px solid #111111;
+  outline: 2px solid $ui-ink;
   outline-offset: 4px;
 }
 
@@ -411,9 +411,9 @@ img {
 
 .card-cta {
   align-self: center;
-  background: #9c8353;
+  background: $ui-olive-accent;
   border-radius: 6px;
-  color: #fffaf0;
+  color: $ui-sand-surface;
   display: inline-block;
   font-size: 0.78rem;
   font-weight: 700;
@@ -449,15 +449,15 @@ img {
 
 .card-icon {
   width: 40px;
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35));
+  filter: drop-shadow(0 2px 3px rgba($ui-black, 0.35));
 }
 
 .card-paper-link {
   align-items: center;
-  background: rgba(255, 250, 240, 0.96);
-  border: 1px solid #d8cba6;
+  background: rgba($ui-sand-surface, 0.96);
+  border: 1px solid $ui-sand-border;
   border-radius: 999px;
-  color: #111111;
+  color: $ui-ink;
   display: inline-flex;
   font-size: 0.78rem;
   font-style: italic;
@@ -473,9 +473,9 @@ img {
 
 .card-paper-link:hover,
 .card-paper-link:focus {
-  background: #fffdf8;
-  box-shadow: 0 4px 12px rgba(80, 60, 20, 0.16);
-  color: #111111;
+  background: $ui-sand-surface-hover;
+  box-shadow: 0 4px 12px rgba($ui-warm-shadow, 0.16);
+  color: $ui-ink;
   text-decoration: none;
   transform: translateY(-1px);
 }

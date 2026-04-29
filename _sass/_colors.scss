@@ -1,10 +1,20 @@
 // Colours
 $bodyColour: #000000;
-$headingColour: darken($bodyColour, 5%);
+$headingColour: darken($bodyColour, 10%);
 $linkColour: #5B5BFF;
 $hoverColour: darken($linkColour, 10%);
 $captionColour: lighten($headingColour, 40%);
 $white: #fff;
 
-$backgroundColour: #fff6dc;
+$backgroundColour: #fff9e9;
 $codeBackgroundColour: darken($backgroundColour, 0%);
+
+// Surface and accent palette
+$ui-black: #000000;
+$ui-white: #ffffff;
+$ui-ink: #111111;
+$ui-sand-border: #d8cba6;
+$ui-sand-surface: #fffcf7;
+$ui-sand-surface-hover: #fffdf8;
+$ui-olive-accent: #9c8353;
+$ui-warm-shadow: #503c14;
