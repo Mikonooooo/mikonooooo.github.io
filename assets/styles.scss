@@ -407,6 +407,11 @@ img {
 
 .card-description {
   margin-top: 0.75rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  visibility: hidden;
 }
 
 .card-cta {
@@ -419,9 +424,28 @@ img {
   font-weight: 700;
   letter-spacing: 0.01em;
   margin-top: 0.75rem;
+  opacity: 0;
+  pointer-events: none;
   padding: 0.45rem 0.7rem;
   text-align: center;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  visibility: hidden;
   width: fit-content;
+}
+
+.card-link:hover .card-description,
+.card-link:focus .card-description,
+.card-link:focus-within .card-description,
+.card--interactive:hover .card-description,
+.card-link:hover .card-cta,
+.card-link:focus .card-cta,
+.card-link:focus-within .card-cta,
+.card--interactive:hover .card-cta {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .card-media {

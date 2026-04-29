@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Service
-permalink: /service/
+title: Tidbits
+permalink: /tidbits/
 ---
 
-I really value engaging with the community, to create communities via clubs, raise the next generations of leaders, and help others achieve their goals.
+I love to post mathy videos on my YouTube and post expositional pieces here.
 
 <div class="gallery-wrapper">
 <div class="card-gallery card-gallery--stacked">
-  {% for item in site.data.leadership %}
+  {% for item in site.data.explainers %}
     {% include linked-card.html
       title=item.title
-      position=item.position
+      date=item.date
+      category=item.category
       description=item.description
       image=item.image
       image_alt=item.image_alt
