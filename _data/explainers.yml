@@ -4,9 +4,17 @@
   description: Inspired by the world of chess, let's use the ELO model to figure out who's the best tennis player... and test it in practice!
   image: /assets/images/tennis/thumbnail.jpg
   image_alt: Three famous tennis players. Carlos Alcaraz, Jannik Sinner, and Novak Djokovic
+  embed_url: https://www.youtube.com/embed/dOzQ5cOiY6I?si=4k-dTZmlSHy1d06C
   url: /youtube/2025/09/10/te/
   external_url: https://www.youtube.com/watch?v=dOzQ5cOiY6I
   external_label: YouTube
+- title: How to Trust Your Cloud Computing Service
+  category: Computer Science
+  date: April 29, 2026
+  link: /research/2026/04/08/pvcsv/
+  image: /assets/images/pvcsv/thumbnail.png
+  image_alt: Slide thumbnail for Publicly-Verifiable Certificates of Statistical Validity
+  description: Constructed non-interactive proof system for delegating any SQ algorithm with provable exponential savings in sample complexity.
 - title: On writing essays for fun
   date: May 20, 2025
   category: General

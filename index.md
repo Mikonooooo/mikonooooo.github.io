@@ -36,13 +36,22 @@ title: Home
 </section>
 
 <div class="hero-links">
-  <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}">CV</a>
-  |
-  <a href="#">Google Scholar</a>
-  |
-  <a href="https://www.linkedin.com/in/mic-ngo/">LinkedIn</a>
-  |
-  <a href="https://www.youtube.com/@mikono04">YouTube</a>
+  <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}" class="hero-link-icon" aria-label="CV">
+    <img src="{{ '/assets/images/index/cv-icon.svg' | relative_url }}" alt="" aria-hidden="true" class="hero-link-icon--cv">
+    <span class="hero-link-label">CV</span>
+  </a>
+  <a href="#" class="hero-link-icon" aria-label="Google Scholar">
+    <img src="{{ '/assets/images/index/icons8-google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
+    <span class="hero-link-label">Google Scholar</span>
+  </a>
+  <a href="https://www.linkedin.com/in/mic-ngo/" class="hero-link-icon" aria-label="LinkedIn">
+    <img src="{{ '/assets/images/index/icons8-linkedin.svg' | relative_url }}" alt="" aria-hidden="true">
+    <span class="hero-link-label">LinkedIn</span>
+  </a>
+  <a href="https://www.youtube.com/@mikono04" class="hero-link-icon" aria-label="YouTube">
+    <img src="{{ '/assets/images/index/icons8-youtube.svg' | relative_url }}" alt="" aria-hidden="true">
+    <span class="hero-link-label">YouTube</span>
+  </a>
 </div>
 
 <section class="recent-news">
@@ -80,30 +89,20 @@ Hi! I'm currently a senior studying Computer Science at Cornell University, advi
 
 I co-founded and am currently organizing an [undergraduate theory club](https://theoryclub.cs.cornell.edu/) at Cornell. I am also a peer mentor for the [Engineering Leadership Certification Program](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), of which I completed the certification the year prior. Finally, I have served as a teaching assistant for 5 semesters for the Mathematical Foundations of Computer Science (CS 2800) and Introduction to the Analysis of Algorithms (CS 4820). 
 
-I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link blog.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat!**
+I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link tidbits.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat!**
 
 
 ### Selected Publications
-{: #selected-publications .home-section}
 
-My research interests intersect cryptography, proof systems, and machine learning. [[All Research]({% link research.md %})]
+My research interests intersect cryptography, proof systems, and machine learning. [[Publications]({% link publications.md %})] [[Scholar](#)]
 
 
-<div class="gallery-wrapper">
-<div class="card-gallery">
+<div class="publication-list">
   {% for publication in site.data.publications %}
-    {% include publication-card.html
-      title=publication.title
-      authors=publication.authors
-      venue=publication.venue
-      link=publication.link
-      paper_url=publication.paper_url
-      icon=publication.icon
-      icon_alt=publication.icon_alt
-      image=publication.image
-      image_alt=publication.image_alt
-      description=publication.description
-    %}
+    <div class="publication-item">
+      <a href="{{ publication.paper_url }}" target="_blank" rel="noopener noreferrer"><b>{{ publication.title }}</b></a><br>
+      <span>{{ publication.authors }}</span><br>
+      <i>{{ publication.venue }}</i>
+    </div>
   {% endfor %}
-</div>
 </div>

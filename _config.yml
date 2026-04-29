@@ -37,7 +37,7 @@ navbar:
   - title: Home
     url: /
   - title: Publications
-    url: /research/
+    url: /publications/
   - title: Service
     url: /service/
   - title: Tidbits

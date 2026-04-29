@@ -1,4 +1,4 @@
-<div class="card-shell card-shell--linked">
+<div class="card-shell card-shell--linked{% if include.shell_class %} {{ include.shell_class }}{% endif %}">
   {% if include.external_url %}
     <a href="{{ include.external_url }}" target="_blank" rel="noopener noreferrer" class="card-paper-link card-paper-link--external">
       <span>{{ include.external_label | default: "Website" }}</span>
@@ -10,9 +10,15 @@
     class="card-link"
     aria-label="Learn more about {{ include.title }}">
     <article class="card card--linked card--interactive">
-      <div class="card-media">
-        <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
-      </div>
+      {% if include.embed_url %}
+        <div class="card-media video-embed">
+          <iframe src="{{ include.embed_url }}" title="{{ include.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      {% else %}
+        <div class="card-media">
+          <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" class="card-image">
+        </div>
+      {% endif %}
 
       <div class="card-body">
         <div class="card-header">
@@ -26,8 +32,6 @@
             {% endif %}
           </div>
         </div>
-        <span class="small card-description">{{ include.description }}</span>
-        <span class="card-cta">Learn More →</span>
       </div>
     </article>
   </a>
