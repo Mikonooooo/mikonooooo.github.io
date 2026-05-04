@@ -1,7 +1,7 @@
 <div class="card-shell card-shell--publication">
   {% if include.paper_url %}
     <a href="{{ include.paper_url }}" target="_blank" rel="noopener noreferrer" class="card-paper-link">
-      <img src="{{ include.icon }}" class="card-paper-link__icon" alt="{{ include.icon_alt }}">
+      <img src="{{ include.icon | relative_url }}" class="card-paper-link__icon" alt="{{ include.icon_alt }}">
       <span>arXiv</span>
     </a>
   {% endif %}

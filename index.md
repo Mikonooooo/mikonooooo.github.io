@@ -17,10 +17,10 @@ title: Home
         Your browser does not support the audio element.
       </audio>
     </div>
-    <div class="hero-intro__line">Incoming PhD Student at MIT EECS<br>
+    <div class="hero-intro__line"><b>Incoming PhD Student at MIT</b><br>
     Cryptography & ML</div>
-    <div class="hero-intro__email">
-      mingo@mit.edu
+    <div class="hero-intro__email" aria-label="email address">
+      <span aria-hidden="true">mi</span><span aria-hidden="true">ng</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
     </div> <br>
     <div class="hero-intro__line">
     <i>
@@ -85,24 +85,34 @@ title: Home
 ### About Me
 {: #about-me .home-section}
 
-Hi! I'm currently a senior studying Computer Science at Cornell University, advised by [Michael P. Kim](https://www.cs.cornell.edu/~mpkim/). My research interests comprise of the intersection of cryptography and machine learning theory (which is sometimes called crypto+ML). In the summers of 2024 and 2025, I explored research via the [Bowers Undergraduate Research Experience](https://bowers.cornell.edu/research/undergraduate-research/bowers-undergraduate-research-experience). In the summer of 2024, I was fortunate to be co-advised by Michael P. Kim and [Noah Stephens-Davidowitz](https://www.noahsd.com/).
+Hi! I'm an incoming PhD student at **MIT EECS**. Previously, I was an undergraduate at **Cornell University**, advised by [**Michael P. Kim**](https://www.cs.cornell.edu/~mpkim/). My research interests lie in **trustworthy machine learning**, specifically the intersection of **cryptography** and **machine learning theory**. I am honored to be an **NSF Graduate Research Fellow**.
 
-I co-founded and am currently organizing an [undergraduate theory club](https://theoryclub.cs.cornell.edu/) at Cornell. I am also a peer mentor for the [Engineering Leadership Certification Program](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), of which I completed the certification the year prior. Finally, I have served as a teaching assistant for 5 semesters for the Mathematical Foundations of Computer Science (CS 2800) and Introduction to the Analysis of Algorithms (CS 4820). 
+During my time at Cornell, I founded the [**CS theory club**](https://theoryclub.cs.cornell.edu/), was a **peer mentor** and **member** of the [**Engineering Leadership Certification Program**](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), and served as a **teaching assistant** for 5 semesters for the **Mathematical Foundations of Computer Science** (CS 2800) and **Introduction to the Analysis of Algorithms** (CS 4820). 
 
-I occasionally craft videos on [YouTube](https://www.youtube.com/@mikono04) and write things on my [blog]({% link tidbits.md %}). I'm also interested in piano, One Piece, and variety gaming culture. **Please hit me up for a chat!**
-
-
-### Selected Publications
-
-My research interests intersect cryptography, proof systems, and machine learning. [[Publications]({% link publications.md %})] [[Scholar](#)]
+On the personal side, I occasionally craft [**YouTube videos**](https://www.youtube.com/@mikono04) and write things on my [**blog**]({% link tidbits.md %}). I'm also interested in piano, One Piece, variety gaming culture, musicals, movies, and books (from time to time). **Ask me for a chat via email!**
 
 
-<div class="publication-list">
+### Selected Research
+{: #selected-publications .home-section}
+
+My research interests intersect cryptography, proof systems, and machine learning. [[All]({% link publications.md %})] [[Scholar](#)]
+
+
+<div class="gallery-wrapper">
+<div class="card-gallery">
   {% for publication in site.data.publications %}
-    <div class="publication-item">
-      <a href="{{ publication.paper_url }}" target="_blank" rel="noopener noreferrer"><b>{{ publication.title }}</b></a><br>
-      <span>{{ publication.authors }}</span><br>
-      <i>{{ publication.venue }}</i>
-    </div>
+    {% include publication-card.html
+      title=publication.title
+      authors=publication.authors
+      venue=publication.venue
+      link=publication.link
+      paper_url=publication.paper_url
+      icon=publication.icon
+      icon_alt=publication.icon_alt
+      image=publication.image
+      image_alt=publication.image_alt
+      description=publication.description
+    %}
   {% endfor %}
+</div>
 </div>

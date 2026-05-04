@@ -188,9 +188,9 @@ img {
 }
 
 .hero-intro__audio-icon {
-  height: 1.5rem;
+  height: 2rem;
   margin: 0;
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .hero-intro__line{
@@ -211,6 +211,21 @@ img {
 .hero-intro__email {
   font-family: Consolas, monospace;
   font-size: 1.3rem;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.hero-intro__email span {
+  pointer-events: none;
+}
+
+.obfuscated-email {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.obfuscated-email span {
+  pointer-events: none;
 }
 
 .hero-links {
