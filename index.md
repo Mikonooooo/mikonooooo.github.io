@@ -87,7 +87,7 @@ title: Home
 
 Hi! I'm an incoming PhD student at **MIT EECS**. Previously, I was an undergraduate at **Cornell University**, advised by [**Michael P. Kim**](https://www.cs.cornell.edu/~mpkim/). My research interests lie in **trustworthy machine learning**, specifically the intersection of **cryptography** and **machine learning theory**. I am honored to be an **NSF Graduate Research Fellow**.
 
-During my time at Cornell, I founded the [**CS theory club**](https://theoryclub.cs.cornell.edu/), was a **peer mentor** and **member** of the [**Engineering Leadership Certification Program**](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), and served as a **teaching assistant** for 5 semesters for the **Mathematical Foundations of Computer Science** (CS 2800) and **Introduction to the Analysis of Algorithms** (CS 4820). 
+During my time at Cornell, I founded the [**CS theory club**](https://theoryclub.cs.cornell.edu/), was a **peer mentor** and **participant** of the [**Engineering Leadership Certification Program**](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), and served as a **teaching assistant** for 5 semesters for the **Mathematical Foundations of Computer Science** (CS 2800) and **Introduction to the Analysis of Algorithms** (CS 4820). 
 
 On the personal side, I occasionally craft [**YouTube videos**](https://www.youtube.com/@mikono04) and write things on my [**blog**]({% link tidbits.md %}). I'm also interested in piano, One Piece, variety gaming culture, musicals, movies, and books (from time to time). **Ask me for a chat via email!**
 
