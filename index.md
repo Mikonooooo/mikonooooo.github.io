@@ -20,7 +20,7 @@ title: Home
     <div class="hero-intro__line"><b>Incoming PhD Student at MIT</b><br>
     Cryptography & ML</div>
     <div class="hero-intro__email" aria-label="email address">
-      <span aria-hidden="true">mi</span><span aria-hidden="true">ng</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
+      <span aria-hidden="true">mi</span><span aria-hidden="true">ngo</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
     </div> <br>
     <div class="hero-intro__line">
     <i>
