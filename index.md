@@ -21,17 +21,7 @@ title: Home
     Cryptography & ML</div>
     <div class="hero-intro__email" aria-label="email address">
       <span aria-hidden="true">mi</span><span aria-hidden="true">ngo</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
-    </div> <br>
-    <div class="hero-intro__line">
-    <i>
-    Growth<br>
-    Authenticity<br>
-    Helping Others<br>
-    Belonging</i>
     </div>
-    <br>
-    <!-- <div class="hero-intro__tagline">Research in Cryptography & Machine Learning</div> -->
-    <!-- <div class="hero-intro__tagline"><i>growth<br>authenticity<br>helping others<br>belonging</i></div> -->
   </div>
 </section>
 
