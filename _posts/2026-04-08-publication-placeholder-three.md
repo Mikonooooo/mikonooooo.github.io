@@ -1,7 +1,7 @@
 ---
 title: Sample Publication Placeholder Three
 category: Research
-permalink: /research/2026/04/08/publication-placeholder-three/
+permalink: /2026/04/08/publication-placeholder-three/
 ---
 
 This is another placeholder publication page wired to the third publication card.

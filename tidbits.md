@@ -4,6 +4,8 @@ title: Tidbits
 permalink: /tidbits/
 ---
 
+Check my latest thoughts, personal projects, and explainers here!
+
 {% assign featured_item = site.data.explainers | first %}
 {% assign featured_url = featured_item.url | default: featured_item.link %}
 {% include linked-card.html

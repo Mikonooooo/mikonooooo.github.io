@@ -3,15 +3,15 @@
   description: Started an unofficial undergraduate club which hosts fun, informal talks on CS theory for undergraduates.
   image: /assets/images/theory-club/theory_crop.png
   image_alt: Members of Theory Club
-  url: /community-engagement/2026/04/14/theory-club/
+  url: /2026/04/14/theory-club/
   external_url: https://theoryclub.cs.cornell.edu/
   external_label: Website
-- title: Engineering Leadership Certification Program
+- title: "Engineering Leadership Certification Program"
   position: Peer Mentor/Teaching Assistant
-  description: Mentoring a year-long cohort of students, providing feedback, support and input to shape the program.
+  description: Mentored students.
   image: /assets/images/leadership-program/thumbnail.png
-  image_alt: Participants in Mastermind Circles
-  url: /community-engagement/2026/04/14/engineering-leadership-certification/
+  image_alt: leadership cohort with instructor walking in front
+  url: /2026/05/15/leadership-ta/
   external_url: https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/
   external_label: Website
 - title: Mastermind Circles 
@@ -19,5 +19,4 @@
   description: Created a semester-long program where students support each other to accomplish difficult personal and professional goals.
   image: /assets/images/mastermind-circles/liberators.JPEG
   image_alt: Participants in Mastermind Circles
-  url: /community-engagement/2025/05/17/mc/
-
+  url: /2025/05/17/mc/
