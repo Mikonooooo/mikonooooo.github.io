@@ -5,8 +5,10 @@ permalink: /leadership/
 ---
 
 I really value engaging with the community, to create communities via clubs, raise the next generations of leaders, and help others achieve their goals.
+
+### Core Values
+Core values are the guiding principles I use, both as a leader, researcher, and in my day-to-day life.
 <section class="core-values" aria-labelledby="core-values-title">
-  <h2 id="core-vaclues-title">Core Values</h2>
   <div class="core-values__grid">
     <button
       class="core-value-card"
@@ -53,8 +55,11 @@ I really value engaging with the community, to create communities via clubs, rai
   <p id="core-value-dialog-description"></p>
 </dialog>
 
+
+### Experience 
+I put effort into helping the community in small and large ways.
+
 <section class="leadership-experience" aria-labelledby="leadership-experience-title">
-<h2 id="leadership-experience-title">Experience</h2>
 <div class="gallery-wrapper">
 <div class="card-gallery card-gallery--stacked">
   {% for item in site.data.leadership %}
