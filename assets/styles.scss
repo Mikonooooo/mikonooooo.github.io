@@ -434,6 +434,14 @@ img {
   background: rgba($ui-black, 0.45);
 }
 
+.core-value-dialog__image {
+  display: block;
+  margin: 0 auto 1rem;
+  max-height: 360px;
+  object-fit: contain;
+  width: min(100%, 420px);
+}
+
 .core-value-dialog h2 {
   margin-top: 0;
   padding-right: 2rem;

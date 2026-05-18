@@ -15,6 +15,8 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       type="button"
       aria-haspopup="dialog"
       data-core-value-title="Growth"
+      data-core-value-image="{{ '/assets/images/core_values/Growth.png' | relative_url }}"
+      data-core-value-image-alt="Growth core value illustration"
       data-core-value-description="I value growth. Growth is about continually growing: always believing in myself, being okay with failure, doing what I can to make amends and push outside my comfort zone.">
       <img src="{{ '/assets/images/core_values/Growth.png' | relative_url }}" alt="Growth core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Growth</span>
@@ -24,6 +26,8 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       type="button"
       aria-haspopup="dialog"
       data-core-value-title="Authenticity"
+      data-core-value-image="{{ '/assets/images/core_values/Authenticity.png' | relative_url }}"
+      data-core-value-image-alt="Authenticity core value illustration"
       data-core-value-description="I value authenticity. Authenticity is about staying true to myself, keeping my values and goals in mind, enjoying the present moment and doing what I most love to do.">
       <img src="{{ '/assets/images/core_values/Authenticity.png' | relative_url }}" alt="Authenticity core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Authenticity</span>
@@ -33,6 +37,8 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       type="button"
       aria-haspopup="dialog"
       data-core-value-title="Helping Others"
+      data-core-value-image="{{ '/assets/images/core_values/Helping Others.png' | relative_url }}"
+      data-core-value-image-alt="Helping Others core value illustration"
       data-core-value-description="I value helping others. Helping others is about helping others find satisfaction and happiness, whether by teaching, creating equal opportunities, or by being a good friend. If I've been given the gift of life, what use of it is if I can't help others along their journey?">
       <img src="{{ '/assets/images/core_values/Helping Others.png' | relative_url }}" alt="Helping Others core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Helping Others</span>
@@ -42,6 +48,8 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       type="button"
       aria-haspopup="dialog"
       data-core-value-title="Belonging"
+      data-core-value-image="{{ '/assets/images/core_values/Belonging.png' | relative_url }}"
+      data-core-value-image-alt="Belonging core value illustration"
       data-core-value-description="I value Belonging. Belonging is about finding and creating places where myself and others are valued and able to contribute value. A place where everyone can be authentic, grow and help each other.">
       <img src="{{ '/assets/images/core_values/Belonging.png' | relative_url }}" alt="Belonging core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Belonging</span>
@@ -51,6 +59,7 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
 
 <dialog class="core-value-dialog" aria-labelledby="core-value-dialog-title">
   <button class="core-value-dialog__close" type="button" aria-label="Close core value popup">&times;</button>
+  <img src="" alt="" class="core-value-dialog__image" id="core-value-dialog-image">
   <h2 id="core-value-dialog-title"></h2>
   <p id="core-value-dialog-description"></p>
 </dialog>
@@ -81,14 +90,17 @@ I put effort into helping the community in small and large ways.
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const dialog = document.querySelector(".core-value-dialog");
+    const image = document.getElementById("core-value-dialog-image");
     const title = document.getElementById("core-value-dialog-title");
     const description = document.getElementById("core-value-dialog-description");
     const closeButton = document.querySelector(".core-value-dialog__close");
 
-    if (!dialog || !title || !description || !closeButton) return;
+    if (!dialog || !image || !title || !description || !closeButton) return;
 
     document.querySelectorAll(".core-value-card").forEach(function (card) {
       card.addEventListener("click", function () {
+        image.src = card.dataset.coreValueImage || "";
+        image.alt = card.dataset.coreValueImageAlt || "";
         title.textContent = card.dataset.coreValueTitle || "";
         description.textContent = card.dataset.coreValueDescription || "";
 
