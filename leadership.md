@@ -14,17 +14,6 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       class="core-value-card"
       type="button"
       aria-haspopup="dialog"
-      data-core-value-title="Growth"
-      data-core-value-image="{{ '/assets/images/core_values/Growth.png' | relative_url }}"
-      data-core-value-image-alt="Growth core value illustration"
-      data-core-value-description="I value growth. Growth is about continually growing: always believing in myself, being okay with failure, doing what I can to make amends and push outside my comfort zone.">
-      <img src="{{ '/assets/images/core_values/Growth.png' | relative_url }}" alt="Growth core value illustration" class="core-value-card__image">
-      <span class="core-value-card__overlay">Growth</span>
-    </button>
-    <button
-      class="core-value-card"
-      type="button"
-      aria-haspopup="dialog"
       data-core-value-title="Authenticity"
       data-core-value-image="{{ '/assets/images/core_values/Authenticity.png' | relative_url }}"
       data-core-value-image-alt="Authenticity core value illustration"
@@ -53,6 +42,17 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       data-core-value-description="I value Belonging. Belonging is about finding and creating places where myself and others are valued and able to contribute value. A place where everyone can be authentic, grow and help each other.">
       <img src="{{ '/assets/images/core_values/Belonging.png' | relative_url }}" alt="Belonging core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Belonging</span>
+    </button>
+    <button
+      class="core-value-card"
+      type="button"
+      aria-haspopup="dialog"
+      data-core-value-title="Grit"
+      data-core-value-image="{{ '/assets/images/core_values/Grit.png' | relative_url }}"
+      data-core-value-image-alt="Grit core value illustration"
+      data-core-value-description="I value grit. Grit is always believing in myself, being okay with failure, doing what I can to make amends and push outside my comfort zone. Focusing on what is in my control; adjusting, growing and mastering.">
+      <img src="{{ '/assets/images/core_values/Grit.png' | relative_url }}" alt="Grit core value illustration" class="core-value-card__image">
+      <span class="core-value-card__overlay">Grit</span>
     </button>
   </div>
 </section>
