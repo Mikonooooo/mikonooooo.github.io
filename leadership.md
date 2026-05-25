@@ -28,7 +28,7 @@ Core values are the guiding principles I use, both as a leader, researcher, and 
       data-core-value-title="Helping Others"
       data-core-value-image="{{ '/assets/images/core_values/Helping Others.png' | relative_url }}"
       data-core-value-image-alt="Helping Others core value illustration"
-      data-core-value-description="I value helping others. Helping others is about helping others find satisfaction and happiness, whether by teaching, creating equal opportunities, or by being a good friend. If I've been given the gift of life, what use of it is if I can't help others along their journey?">
+      data-core-value-description="I value helping others. Helping others is about helping others find satisfaction and happiness, whether by teaching, creating equal opportunities, or by being a good friend.">
       <img src="{{ '/assets/images/core_values/Helping Others.png' | relative_url }}" alt="Helping Others core value illustration" class="core-value-card__image">
       <span class="core-value-card__overlay">Helping Others</span>
     </button>

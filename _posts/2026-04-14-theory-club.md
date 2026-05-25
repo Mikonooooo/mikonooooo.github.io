@@ -6,14 +6,14 @@ permalink: /2026/04/14/theory-club/
 
 ![Theory club members sitting in a classroom after Prof. Bobby Kleinberg's talk.]({{ site.baseurl }}/assets/images/theory-club/theory_club.jpg){: width="80%"}
 
-We started a CS theory club at Cornell! Professors, graduate students, and undergraduate students gave 10 talks spanning cryptography, algorithms, approximation algorithms, complexity, game theory, differential privacy, and more. About 10-25 undergraduates come to our talks every week! See them on our [website](https://theoryclub.cs.cornell.edu/)! 
+In Spring of 2026, we started a CS theory club at Cornell! Professors, graduate students, and undergraduate students gave 10 talks spanning cryptography, algorithms, approximation algorithms, complexity, game theory, differential privacy, and more. About 10-25 undergraduates come to our talks every week! See them on our [website](https://theoryclub.cs.cornell.edu/)! 
 
 
 **Mission.** To gather people who are collectively curious or passionate about CS theory! I'm really happy where the club has gotten to this semester where the the talks are interactive and informal (we interrupt and ask questions a lot). Though I'm leaving Cornell, I'm really looking forward to seeing where it goes from here! Shout out to Nancy and Lawrence for taking over as Co-Presidents!
 
 **Why.** At Cornell, undergraduates interested in CS theory don't have a place for connecting and hanging out. Sure you can take theory classes, be a teaching assistant for theory classes, attend graduate seminars, or do research, but we did not have a place where we can congregate together. A club by beginning CS theorists, for beginning CS theorists.
 
-**How.** 
+**What Happened.** We 
 
 
 

@@ -22,27 +22,26 @@ title: Home
     <div class="hero-intro__email" aria-label="email address">
       <span aria-hidden="true">mi</span><span aria-hidden="true">ngo</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
     </div>
+    <div class="hero-links">
+      <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}" class="hero-link-icon" aria-label="CV">
+        <img src="{{ '/assets/images/index/cv-icon.svg' | relative_url }}" alt="" aria-hidden="true" class="hero-link-icon--cv">
+        <span class="hero-link-label">CV</span>
+      </a>
+      <a href="#" class="hero-link-icon" aria-label="Google Scholar">
+        <img src="{{ '/assets/images/index/icons8-google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
+        <span class="hero-link-label">Google Scholar</span>
+      </a>
+      <a href="https://www.linkedin.com/in/mic-ngo/" class="hero-link-icon" aria-label="LinkedIn">
+        <img src="{{ '/assets/images/index/icons8-linkedin.svg' | relative_url }}" alt="" aria-hidden="true">
+        <span class="hero-link-label">LinkedIn</span>
+      </a>
+      <a href="https://www.youtube.com/@mikono04" class="hero-link-icon" aria-label="YouTube">
+        <img src="{{ '/assets/images/index/icons8-youtube.svg' | relative_url }}" alt="" aria-hidden="true">
+        <span class="hero-link-label">YouTube</span>
+      </a>
+    </div>
   </div>
 </section>
-
-<div class="hero-links">
-  <a href="{{ '/assets/documents/index/CV.pdf' | relative_url }}" class="hero-link-icon" aria-label="CV">
-    <img src="{{ '/assets/images/index/cv-icon.svg' | relative_url }}" alt="" aria-hidden="true" class="hero-link-icon--cv">
-    <span class="hero-link-label">CV</span>
-  </a>
-  <a href="#" class="hero-link-icon" aria-label="Google Scholar">
-    <img src="{{ '/assets/images/index/icons8-google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
-    <span class="hero-link-label">Google Scholar</span>
-  </a>
-  <a href="https://www.linkedin.com/in/mic-ngo/" class="hero-link-icon" aria-label="LinkedIn">
-    <img src="{{ '/assets/images/index/icons8-linkedin.svg' | relative_url }}" alt="" aria-hidden="true">
-    <span class="hero-link-label">LinkedIn</span>
-  </a>
-  <a href="https://www.youtube.com/@mikono04" class="hero-link-icon" aria-label="YouTube">
-    <img src="{{ '/assets/images/index/icons8-youtube.svg' | relative_url }}" alt="" aria-hidden="true">
-    <span class="hero-link-label">YouTube</span>
-  </a>
-</div>
 
 <section class="recent-news">
   <div class="recent-news__box">

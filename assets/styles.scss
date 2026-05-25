@@ -233,7 +233,7 @@ img {
   gap: 0.7rem;
   justify-content: center;
   line-height: 1.6rem;
-  margin: 1rem auto 1rem;
+  margin: 0.5rem auto 0;
   text-align: center;
 }
 
@@ -321,6 +321,7 @@ img {
 
 @media (min-width: 700px) {
   .hero-intro {
+    align-items: flex-start;
     flex-direction: row;
     text-align: left;
   }
@@ -329,6 +330,11 @@ img {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
+  }
+
+  .hero-intro__content .hero-links {
+    justify-content: flex-start;
+    margin-left: 0;
   }
 }
 
