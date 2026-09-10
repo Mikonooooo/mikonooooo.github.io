@@ -74,7 +74,7 @@ title: Home
 ### About Me
 {: #about-me .home-section}
 
-Hi! I'm an incoming PhD student at **MIT EECS**. Previously, I was an undergraduate at **Cornell University**, advised by [**Michael P. Kim**](https://www.cs.cornell.edu/~mpkim/). My research interests lie in **trustworthy machine learning**, specifically the intersection of **cryptography** and **machine learning theory**. I am honored to be an **NSF Graduate Research Fellow**.
+Hi! I'm a 1st-year PhD student at **MIT EECS**. Previously, I was an undergraduate at **Cornell University**, advised by [**Michael P. Kim**](https://www.cs.cornell.edu/~mpkim/). My research interests lie in **trustworthy machine learning**, specifically the intersection of **cryptography** and **machine learning theory**. I am honored to be an **NSF Graduate Research Fellow**.
 
 During my time at Cornell, I founded the [**CS theory club**](https://theoryclub.cs.cornell.edu/), was a **peer mentor** and **participant** of the [**Engineering Leadership Certification Program**](https://www.duffield.cornell.edu/selander-center-engineering-leadership/engineering-leadership-certification/), and served as a **teaching assistant** for 5 semesters for the **Mathematical Foundations of Computer Science** (CS 2800) and **Introduction to the Analysis of Algorithms** (CS 4820). 
 
