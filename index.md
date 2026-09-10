@@ -17,7 +17,7 @@ title: Home
         Your browser does not support the audio element.
       </audio>
     </div>
-    <div class="hero-intro__line"><b>Incoming PhD Student at MIT</b><br>
+    <div class="hero-intro__line"><b>1st Year PhD Student at MIT</b><br>
     Cryptography & ML</div>
     <div class="hero-intro__email" aria-label="email address">
       <span aria-hidden="true">mi</span><span aria-hidden="true">ngo</span><span aria-hidden="true">&#64;</span><span aria-hidden="true">mit</span><span aria-hidden="true">&#46;</span><span aria-hidden="true">edu</span>
@@ -27,7 +27,7 @@ title: Home
         <img src="{{ '/assets/images/index/cv-icon.svg' | relative_url }}" alt="" aria-hidden="true" class="hero-link-icon--cv">
         <span class="hero-link-label">CV</span>
       </a>
-      <a href="#" class="hero-link-icon" aria-label="Google Scholar">
+      <a href="https://scholar.google.com/citations?user=WVQuStEAAAAJ" class="hero-link-icon" aria-label="Google Scholar">
         <img src="{{ '/assets/images/index/icons8-google-scholar.svg' | relative_url }}" alt="" aria-hidden="true">
         <span class="hero-link-label">Google Scholar</span>
       </a>
@@ -47,7 +47,7 @@ title: Home
   <div class="recent-news__box">
     <div class="recent-news__title"><b>Recent News</b><br>
     <span>
-    Starting my PhD at MIT in the fall! 
+    Started my PhD at MIT in Fall 2026! 
     <br>Awarded the 2026 NSF GRFP!
     </span>
    </div>
@@ -84,7 +84,7 @@ On the personal side, I occasionally craft [**YouTube videos**](https://www.yout
 ### Selected Research
 {: #selected-publications .home-section}
 
-My research interests intersect cryptography, proof systems, and machine learning. [[All]({% link publications.md %})] [[Scholar](#)]
+My research interests intersect cryptography, proof systems, and machine learning. [[All]({% link publications.md %})] [[Scholar](https://scholar.google.com/citations?user=WVQuStEAAAAJ)]
 
 
 <div class="gallery-wrapper">
